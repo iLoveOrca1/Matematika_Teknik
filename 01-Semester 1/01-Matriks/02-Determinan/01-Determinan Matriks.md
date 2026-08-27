@@ -17,8 +17,8 @@ c & d
 \end{pmatrix}
 $$
 
-Maka 
--> __det A__ = ad - bc
+Maka
+__det A__ = ad - bc
 
 # Ordo 3 * 3
 Kita akan menggunakan metode Sarrus
@@ -46,3 +46,6 @@ d & e \\
 g & h
 \end{matrix}
 $$
+
+# Testing
+$\begin{bmatrix}X\\Y\end{bmatrix}$
