@@ -7,8 +7,6 @@ Misal diketahui determinan matriks *A*. Bisa ditulis __det A__ ataupun *|A|*
 # Pencarian determinan Ordo 2 * 2
 Cara mencarinya cukup gampang, kita tinggal mengkali-silangkan elemen pada diagonal utama lalu mengurangkan keduanya.
 
-:
-
 $$
 A = \begin{pmatrix} 
 a & b \\ 
@@ -23,7 +21,7 @@ $$
 $$
 
 # Pencarian determinan Ordo 3 * 3
-Kita akan menggunakan metode __SARRUS__. Ini adalah metode dimana kita akan menge
+Kita akan menggunakan metode __SARRUS__. Nilai determinan dihitung dengan menjumlahkan hasil kali elemen pada tiga diagonal menurun, lalu menguranginya dengan total hasil kali elemen pada tiga diagonal menaik.
 
 Sebagai contoh, kita diberikan sebuah matriks $B$ sebagai berikut.
 
@@ -50,9 +48,15 @@ g & h
 \end{matrix}
 $$
 
-Berikut visualisasi dari pengalian silang dari metode ini. Untuk garis warna kuning akan kita kali silang lalu ditotalkan. Untuk yang warna biru juga akan kita kali silangkan, dan total darinya akan dikurangkan dengan kali silang warna kuning sebelumnya.
+Berikut visualisasi perkalian silangnya:
 
 ![Determinan 3 * 3](image/Determinan3x3.png)
+
+- __Garis kuning:__ Kalikan elemennya lalu jumlahkan.
+- __Garis biru:__ Kalikan elemennya lalu jumlahkan. 
+
+Hasil akhirnya adalah total garis kuning dikurangi total garis biru.
+
 
 Dengan ini, maka rumus mencari determinannya adalah seperti ini:
 
