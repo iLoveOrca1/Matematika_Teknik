@@ -7,8 +7,7 @@ Misal diketahui determinan matriks *A*. Bisa ditulis __det A__ ataupun *|A|*
 # Ordo 2 * 2
 Cara mencarinya cukup gampang, kita tinggal mengkali-silangkan elemen pada diagonal utama lalu mengurangkan keduanya.
 
-Contoh
-
+Contoh:
 $$
 A =
 \begin{pmatrix}
@@ -16,9 +15,10 @@ a & b \\
 c & d
 \end{pmatrix}
 $$
-
-Maka
-__det A__ = ad - bc
+Maka:
+$$
+|A| = ad - bc
+$$
 
 # Ordo 3 * 3
 Kita akan menggunakan metode Sarrus
@@ -32,7 +32,9 @@ d & e & f \\
 g & h & i
 \end{pmatrix}
 $$
+
 Kita akan mengali silangkan matriks tersebut 
+
 $$
 |B| = 
 \begin{vmatrix}
@@ -47,5 +49,8 @@ g & h
 \end{matrix}
 $$
 
-# Testing
-$\begin{bmatrix}X\\Y\end{bmatrix}$
+$$
+|B| = aei + bfg + cdh - ceg - afh - bdi 
+$$
+
+![Determinan 3 * 3](image/Determinan3x3.png)
