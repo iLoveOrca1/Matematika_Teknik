@@ -9,13 +9,7 @@ Cara mencarinya cukup gampang, kita tinggal mengkali-silangkan elemen pada diago
 
 Contoh:
 
-$
-A =
-\begin{pmatrix}
-a & b \\
-c & d
-\end{pmatrix}
-$
+$A = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$
 
 Maka:
 
