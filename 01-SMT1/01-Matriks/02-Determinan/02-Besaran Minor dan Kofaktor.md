@@ -55,6 +55,7 @@ Ok sekali lagi, kali ini akan mencari $M_{22}$. Pertama kita hapus baris 2 kolom
 ![M22](image/m22.png)
 
 Lalu kita cari determinan dari submatriks yang tersisa
+
 $$
 M_{22} = 
 \begin{vmatrix} 
@@ -76,13 +77,22 @@ Secara visual, pola tanda kofaktor matriks selalu berselang-seling seperti papan
 Ini untuk matriks 3x3 
 
 $$
-\begin{bmatrix} + & - & + \\ - & + & - \\ + & - & + \end{bmatrix}
+\begin{bmatrix} 
+{+} & {-} & {+} \\ 
+{-} & {+} & {-} \\ 
+{+} & {-} & {+} 
+\end{bmatrix}
 $$
 
 Dan ini untuk matrix 4x4
 
 $$
-\begin{bmatrix} + & - & + & - \\ - & + & - & + \\ + & - & + & - \\ - & + & - & + \end{bmatrix}
+\begin{bmatrix}
+{+} & {-} & {+} & {-} \\ 
+{-} & {+} & {-} & {+} \\ 
+{+} & {-} & {+} & {-} \\ 
+{-} & {+} & {-} & {+} 
+\end{bmatrix}
 $$
 
 Sebagai contoh, mari kita membuat kofaktor menggunakan matriks $A$ pada contoh sebelumnya.
