@@ -4,7 +4,7 @@
 
 ## Pengenalan Minor
 
-Minor adalah determinan dari sub-matriks yang tersisa setelah baris ke-$i$ dan kolom ke-$j$ dihapus dari matriks asal. 
+Minor adalah determinan dari sub-matriks yang tersisa setelah baris ke- $i$ dan kolom ke- $j$ dihapus dari matriks asal. 
 
 Misal kita diberi tugas mencari $M_{ij}$. 
 - $M$: Simbol untuk menyatakan minor.
