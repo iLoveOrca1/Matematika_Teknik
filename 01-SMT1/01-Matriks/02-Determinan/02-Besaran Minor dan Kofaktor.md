@@ -76,22 +76,13 @@ Secara visual, pola tanda kofaktor matriks selalu berselang-seling seperti papan
 Ini untuk matriks 3x3 
 
 $$
-\begin{bmatrix}
-+ & - & + \\
-- & + & - \\
-+ & - & +
-\end{bmatrix}
+\begin{bmatrix} + & - & + \\ - & + & - \\ + & - & + \end{bmatrix}
 $$
 
 Dan ini untuk matrix 4x4
 
 $$
-\begin{bmatrix}
-+ & - & + & - \\
-- & + & - & + \\
-+ & - & + & - \\
-- & + & - & +
-\end{bmatrix}
+\begin{bmatrix} + & - & + & - \\ - & + & - & + \\ + & - & + & - \\ - & + & - & + \end{bmatrix}
 $$
 
 Sebagai contoh, mari kita membuat kofaktor menggunakan matriks $A$ pada contoh sebelumnya.
@@ -106,6 +97,7 @@ A =
 $$
 
 Berarti kita akan mencari besaran minor setiap elemennya terlebih dahulu.
+
 $$
 kof (A) =
 \begin{pmatrix}
