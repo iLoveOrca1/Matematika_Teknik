@@ -122,7 +122,7 @@ M_{31} & -M_{32} & M_{33} \\
 \end{pmatrix}
 $$
 
-Bisa dilihat bahwa kofaktor ini hanyalah sebuah matriks hasil dari minor dari berbagai minor, yang kemudian diarahkan apakah posisinya negatif maupun positif.
+Bisa dilihat bahwa kofaktor ini hanyalah sebuah matriks hasil dari berbagai minor, yang kemudian diarahkan apakah posisinya negatif maupun positif.
 
 > Q: Gimana kalau aku mau tau isi kofaktor baris i dan kolom j tanpa harus ngitung satu-satu minor matriksnya?
 
