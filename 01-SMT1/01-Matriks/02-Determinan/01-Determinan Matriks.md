@@ -7,6 +7,8 @@ Intinya, determinan adalah satu angka tunggal yang dihasilkan dari matriks perse
 - Membantu kita memahami sifat-sifat matriks persegi tersebut.
 - Menjadi kunci untuk mempelajari bagaimana ia mengubah suatu ruang (*transformasi linear*).
 
+Untuk penulisan notasi, misal diketahui determinan matriks $A$. Determinan ini bisa ditulis $det A$ ataupun $|A|$
+
 Ada 2 jenis matriks berdasarkan determinannya:
 1. Jika $|A| = 0$, maka matriks $A$ itu disebut __matriks singular.__
 2. Jika $|A| \neq 0$, maka matriks $A$ itu disebut __matriks nonsingular.__
@@ -25,11 +27,9 @@ Ada pula sifat-sifat determinan seperti:
 
 # Pencarian determinan matriks
 
-Misal diketahui determinan matriks $A$. Determinan ini bisa ditulis $det A$ ataupun $|A|$
-
 > Determinan matriks hanya ada pada matriks persegi
 
-## Pencarian determinan Ordo 2 * 2
+## Pencarian Determinan Ordo 2 x 2
 Cara mencarinya cukup gampang, kita tinggal mengkali-silangkan elemen pada diagonal utama lalu mengurangkan keduanya.
 
 $$
@@ -45,7 +45,7 @@ $$
 |A| = ad - bc
 $$
 
-## Pencarian determinan Ordo 3 * 3
+## Pencarian Determinan Ordo 3 x 3
 Kita akan menggunakan metode __SARRUS__. Nilai determinan dihitung dengan menjumlahkan hasil kali elemen pada tiga diagonal menurun, lalu menguranginya dengan total hasil kali elemen pada tiga diagonal menaik.
 
 Sebagai contoh, kita diberikan sebuah matriks $B$ sebagai berikut.
@@ -58,7 +58,7 @@ g & h & i
 \end{pmatrix}
 $$
 
-Pada awal, kita akan menambahkan kolom 1 dan 2 pada samping matriks. Secara visual, susunan Metode Sarrus akan terlihat seperti ini:
+Pada tahap pertama, kita akan menambahkan kolom 1 dan 2 ke samping matriks. Secara visual, susunan Metode Sarrus akan terlihat seperti ini:
 
 $$
 |B| = \begin{vmatrix}
